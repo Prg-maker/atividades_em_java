@@ -20,6 +20,7 @@ public class Controle {
 		boolean isNew = qnt_contas < 120? 	true : false;
 	
 		if(isNew) {
+			
 			contas[qnt_contas] = c;
 			qnt_contas++;
 		}
